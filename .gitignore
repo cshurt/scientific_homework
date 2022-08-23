@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Credentials
+# Proper security is more effort and thus should be paid.
+credentials.yaml

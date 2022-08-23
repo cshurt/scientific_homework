@@ -2,7 +2,7 @@
 % Chris Shurtleff
 % August 22, 2022
 
-### What is a Data Lake?
+# What is a Data Lake?
 
 ## Data Lake:
 
@@ -22,7 +22,7 @@
 - Data Warehouse has _structured_ data
 - Data Lake has _unstructured_ data
 - Structured data requires knowing _precisely_ how to describe what you want to keep in advance
-- Unstructured lets you keep _unstructured_ data that you _might_ want to use later
+- Unstructured lets you keep some data that you _might_ want to use later
 - Semi-structured data lets you apply _some_ structure to otherwise unstructured data
 
 ::: notes
@@ -32,11 +32,11 @@
     Relational data (excel, SQL)
 :::
 
-### Serverless architecture
+# Serverless architecture
 
 ## What is serverless?
 
-![Scooters in Columbus](slide_images/Columbus_electric_scooters.jpeg)
+![Scooters in Columbus](slide_images/Columbus_electric_scooters.jpg)
 
 - Using somebody else's computers
 - Like sharing these scooters, but for computers!
@@ -77,13 +77,13 @@
 - Realistically it's a complicated tradeoff that is _usually_ more secure, _usually_ cheaper, and _usually_ easier to use.
 :::
 
-### ETL Pipeline
+## ETL Pipeline
 
 ::: notes
 TODO: Make a diagram of the ETL, then add notes
 :::
 
-### Modern MLOps
+# Modern MLOps
 
 ## Machine Learning
 - Set of algorithms that can be broadly applied across different sets of data
@@ -94,6 +94,7 @@ TODO: Make a diagram of the ETL, then add notes
 
 ## How to make an ML model
 Generic Supervised approach:
+
 - Build set of _features_ from input data
 - Determine the _label_ of each set of _features_
 - _Train_ the features, finding the right _weights_ that lead from input to label
@@ -112,6 +113,7 @@ _discrimination_: What is the exact tradeoff between when our algorithm was wron
 
 ## Applied ML Models (MLOps)
 Automate the last slide!!!
+
 - Automatic data (or ETL) pipelines to generate _features_ from input data
 - Apply the ML model to the new _features_, creating a set of _labels_
 - Use the _labels_ as you see fit!
