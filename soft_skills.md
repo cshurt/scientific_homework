@@ -6,7 +6,7 @@
 
 ## Data Lake:
 
-![Trash under lake Erie](slide_images/lake_trash_erie.jpeg)
+![Trash under lake Erie](slide_images/lake_trash_erie.jpeg){width=70%, height=70%}\
 
 - Like a regular lake, filled with all sorts of interesting garbage.
 - If you need something, get a magnet! (High-effort retrieval)
@@ -36,11 +36,10 @@
 
 ## What is serverless?
 
-![Scooters in Columbus](slide_images/Columbus_electric_scooters.jpg)
+![Scooters in Columbus](slide_images/Columbus_electric_scooters.jpg){width=70%, height=70%}\
 
 - Using somebody else's computers
 - Like sharing these scooters, but for computers!
-- Allows a third party to absorb and distribute costs among many clients
 
 ::: notes
 - Scooter share services also tend to use serverless architecture.
@@ -79,8 +78,10 @@
 
 ## ETL Pipeline
 
+![Simple ETL Pipeline](slide_images/etl_pipeline.png){width=70%,height=70%}\
+
 ::: notes
-TODO: Make a diagram of the ETL, then add notes
+Dead simple. Data starts in an s3 bucket. Lambda reaches into the bucket. Lambda runs a short segment of python code. Lambda writes to provisioned MySQL database.
 :::
 
 # Modern MLOps
