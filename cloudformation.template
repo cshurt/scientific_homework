@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    23249c26-0e8a-483d-bb1e-a5bff8891523:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 270
+        'y': 260
+      z: 0
+    2d5b9178-14dc-45b8-a40a-8dbd2925cd58:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 400
+        'y': 260
+      z: 0
+    f034fce7-e8a9-454e-ac8c-223c1353fbbe:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 540
+        'y': 260
+      z: 0
+Resources:
+  S3B1MCKA:
+    Type: 'AWS::S3::Bucket'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 23249c26-0e8a-483d-bb1e-a5bff8891523
+  LF2A38:
+    Type: 'AWS::Lambda::Function'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 2d5b9178-14dc-45b8-a40a-8dbd2925cd58
+  RDSDBI1K886:
+    Type: 'AWS::RDS::DBInstance'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: f034fce7-e8a9-454e-ac8c-223c1353fbbe
